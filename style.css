@@ -1,0 +1,128 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+.headerlogo {
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    align-self: center;
+    margin-left: 125px;
+    
+}
+.headerlinks {
+    padding: 20px;
+    color: white;
+    display: flex;
+    margin-right: 125px;
+    
+}
+a {
+    padding: 10px;
+}
+.one {
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    background-color: #1F2937;
+    
+}
+.oneleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    color: white;
+    
+
+}
+.onehero {
+    font-size: 48px;
+    font-style: bold;
+    color: #f9faf8;
+}
+.oneright {
+    align-self: center;
+    
+
+}
+.two {
+    display: flex;
+    flex-direction: column;
+}
+.twotop {
+    display: flex;
+    justify-content: center;
+}
+.twomid {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+img {
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 250px;
+    
+}
+.quotebox {
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+
+}
+.attribution {
+    display: flex;
+    align-self: flex-end;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.box {
+    display: flex;
+    color: white;
+    width: 350px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+.call {
+    font-size: 28px;
+    font-style: bold;
+
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
